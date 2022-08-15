@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 30px;
+}
+
+.div-1{
+    background-color: #4d9aad;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.div-2{
+    background-color: white;
+
+}
+
+#head-section{ 
+    color: #4d9aad;
+}
+
+.words{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .div-2-1{ 
+display: flex;
+justify-content: space-between;
+} */
+
+.div-3{
+    background-color: #ebebeb;
+
+}
+
+#data-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+#data-section :nth-child(1) {
+    color: #4d9aad;
+}
+
+#data-section :nth-child(2){
+    background-color: #4d9aad;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.image-div :nth-child(1){
+    width: 27%;
+    border-radius: 10px;
+}
+
+.image-div :nth-child(2){
+    width: 27%;
+    border-radius: 10px;
+}
+
+.image-div :nth-child(3){
+    width: 27%;
+    border-radius: 10px;
+}
+
+.image-div :nth-child(4){
+    width: 27%;
+    border-radius: 10px;
+}
+
+.image-div :nth-child(5){
+    width: 27%;
+    border-radius: 10px;
+}
+
+.image-div :nth-child(6){
+    width: 27%;
+    border-radius: 10px;
+}
+
+.div-4{
+    background-color: #4d9aad;
+    margin-top: -20px;
+}
+
+.div-4 :nth-child(1) {
+    background-color: #4d9aad;
+}
+.div-4 :nth-child(2) {
+    color: white;
+}
+
+.contact-call{
+    display: flex;
+}
+
+.contact-call :nth-child(2){
+    background-color: white;
+    color: #4d9aad;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-call :nth-child(3){
+    background-color: #157293;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.div-5{
+    background: #157293;
+    color: #ffffff;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.div-5 :nth-child(2){
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.div-5 :nth-child(3) {
+    width: 20px;
+    border-radius: 5px;
+
+}
+
+.div-5 :nth-child(4) {
+    width: 20px;
+    border-radius: 5px;
+
+}
+
+.div-5 :nth-child(5) {
+    width: 20px;
+    border-radius: 5px;
+
+}
+
+.div-5 :nth-child(6) {
+    width: 20px;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width: 414px) {
+     .div-1{
+        background: fixed;
+        background-color: #4d9aad;
+        color: white;
+        font-size: larger;
+        width: 260%;
+    
+
+    }
+    
+    #head-section{
+        font-size: 2rem;
+        width: 200%;
+    }
+
+    .words{
+        display: inline-block;
+        font-size: 3rem;
+        align-content: flex-end;
+        justify-content: end;
+        
+    }
+
+    #data-section{
+        font-size: 3rem;
+        background-color: #ebebeb;
+        display: inline-block;
+        background-repeat: no-repeat;
+        width: 250%;
+        margin-left: 50%;
+    
+        
+
+    }
+
+    #data-section :nth-child(2){
+        background-color: #4d9aad;
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
+        font-weight: bolder;
+        
+    }
+
+    .image-div :nth-child(1){
+        width: 350%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(2){
+        width: 350%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(3){
+        width: 350%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(4){
+        width: 350%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(5){
+        width: 350%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(6){
+        width: 350%;
+        border-radius: 10px;
+    }
+
+    .contact-call{
+        display: inline-block;
+        font-size: 3rem;
+    }
+
+    .div-4{
+        width: 250%;
+    }
+
+    .div-5{
+        width: 250%;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .words{
+        font-size: larger;
+        
+    }
+    .image-div{
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    .div-1{
+        width: 110%;
+    }
+
+    /* .image-div :nth-child(1){
+        width: 40%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(2){
+        width: 40%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(3){
+        width: 40%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(4){
+        width: 40%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(5){
+        width: 40%;
+        border-radius: 10px;
+    }
+    
+    .image-div :nth-child(6){
+        width: 40%;
+        border-radius: 10px;
+    } */
+
+    .image-div{
+        display:block;
+    }
+}
